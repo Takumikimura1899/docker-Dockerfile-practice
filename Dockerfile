@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 RUN apt update && apt install -y \
     curl \
+    cvs \
     nginx
-RUN apt install -y cvs
