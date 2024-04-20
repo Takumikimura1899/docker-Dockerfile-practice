@@ -1,3 +1,5 @@
 FROM ubuntu:latest
-RUN touch test
-RUN echo "Hello World" > test
+RUN apt update && apt install -y \
+    curl \
+    nginx
+RUN apt install -y cvs
