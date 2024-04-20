@@ -1,3 +1,4 @@
 FROM ubuntu:latest
-ENV key1 value
-ENV key2=value
+RUN mkdir /sample_folder
+WORKDIR /sample_folder
+RUN touch sample_file.txt
