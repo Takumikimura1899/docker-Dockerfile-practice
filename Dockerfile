@@ -1,4 +1,3 @@
 FROM ubuntu:latest
-RUN touch test
-ENTRYPOINT ["ls"]
-CMD ["--help"]
+ENV key1 value
+ENV key2=value
